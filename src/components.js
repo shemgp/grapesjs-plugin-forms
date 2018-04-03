@@ -65,7 +65,7 @@ export default function(editor, opt = {}) {
   domc.addType('form', {
     model: defaultModel.extend({
       defaults: Object.assign({}, defaultModel.prototype.defaults, {
-        droppable: ':not(form)',
+        //droppable: ':not(form)',
         draggable: ':not(form)',
         traits: [{
           type: 'select',
